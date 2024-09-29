@@ -17,7 +17,7 @@
 
 .nav-logo{
     height: 50px;
-    width: 125px;
+    width: 113px;
 
 }
 
@@ -209,4 +209,83 @@ span{
 .box-content p a{
     color: #007185;
     text-decoration: none;
+}
+
+/* footer section */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    color: #dddddd;
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Amazon%20Logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.7rem;
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    padding-top: 5px;   
 }
